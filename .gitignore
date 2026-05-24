@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Environment files
+.env.local
+.env.*.local
+
+# Workspace artifacts
+workspace/projects/*/output/
+workspace/logs/
+
+# Model & data files (generated)
+*.pt
+*.pth
+*.onnx
+*.h5
+*.joblib
+*.pkl
+*.safetensors
+*.bin
+*.npy
+*.npz
+
+# Archives
+*.zip
+*.tar.gz
+*.tgz
+*.7z
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+*.tmp
+
+# Docker build cache (generated during docker compose)
+docker/*.tar
